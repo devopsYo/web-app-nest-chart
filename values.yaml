@@ -52,7 +52,7 @@ ingress:
   hosts:
     - host: chart-example.local
       paths:
-        - path: /v2
+        - path: /nest
           pathType: Prefix
   tls: []
   #  - secretName: chart-example-tls
